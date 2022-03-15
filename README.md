@@ -6,5 +6,5 @@ Spring boot와 JPA를 활용한 페이지 만들기
 
 - Maven
 - JDK 11
-- MariaDB 
+- MariaDB
 - intelliJ
