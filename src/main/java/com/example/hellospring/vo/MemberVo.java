@@ -1,15 +1,15 @@
 package com.example.hellospring.vo;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 
 @Entity
 public class MemberVo {
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     Long mbrNo;
+
+    @Column(name="NAME")
     String name;
     String id;
 

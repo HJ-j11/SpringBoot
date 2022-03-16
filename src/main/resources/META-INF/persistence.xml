@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence"
              version="2.1">
-<!-- entityManagerFactory에서 name 동일하게 해야 오류 안남.-->
+<!-- entityManagerFactory 에서 name 동일하게 해야 오류 안남.-->
     <persistence-unit name="hello">
         <properties>
             <!-- 필수 속성 -->
-<!--            DB 연결 user, pw -->
+<!--            DB 연결 user, password -->
             <property name="javax.persistence.jdbc.driver" value="org.mariadb.jdbc.Driver"/>
             <property name="javax.persistence.jdbc.user" value="root"/>
             <property name="javax.persistence.jdbc.password" value="root0213"/>
