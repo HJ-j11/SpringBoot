@@ -1,8 +1,17 @@
 package com.example.hellospring.vo;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+
+
+@Entity
 public class MemberVo {
+    @Id
+    @GeneratedValue
     Long mbrNo;
     String name;
+    String id;
 
     public Long getMbrNo() {
         return mbrNo;
@@ -28,21 +37,10 @@ public class MemberVo {
         this.id = id;
     }
 
-    public String getCity() {
-        return city;
-    }
 
-    public void setCity(String city) {
-        this.city = city;
-    }
-
-    String id;
-    String city;
-
-    public MemberVo(String name, String id, String city) {
-        this.name = name;
-        this.id = id;
-        this.city = city;
-    }
+//    public MemberVo(String name, String id) {
+//        this.name = name;
+//        this.id = id;
+//    }
 
 }
