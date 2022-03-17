@@ -17,10 +17,9 @@ public class Main {
         // try, catch, finally -> 에러 처리 필수(데이터베이스이기 때문).
        try {
            // 선언 및 setId, setName
-           MemberVo member = new MemberVo();
-           member.setId("004");
-           member.setName("hello");
-           em.persist(member);
+           MemberVo member1 = new MemberVo("member1", "회원1");
+           MemberVo member2 = new MemberVo("member2", "회원2");
+
            //커밋
            tx.commit();
 

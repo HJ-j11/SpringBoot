@@ -1,0 +1,178 @@
+INFO  22-03-17 20:36:46[restartedMain] [HelloSpringApplication:55] - Starting HelloSpringApplication using Java 11.0.11 on DESKTOP-IE3FB85 with PID 16084 (C:\Users\hyeji\Documents\GitHub\SpringBoot\target\classes started by hyeji in C:\Users\hyeji\Documents\GitHub\SpringBoot)
+INFO  22-03-17 20:36:46[restartedMain] [HelloSpringApplication:640] - No active profile set, falling back to 1 default profile: "default"
+INFO  22-03-17 20:36:46[restartedMain] [DevToolsPropertyDefaultsPostProcessor:255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+INFO  22-03-17 20:36:46[restartedMain] [DevToolsPropertyDefaultsPostProcessor:255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+INFO  22-03-17 20:36:47[restartedMain] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  22-03-17 20:36:47[restartedMain] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 19 ms. Found 0 JPA repository interfaces.
+INFO  22-03-17 20:36:47[restartedMain] [TomcatWebServer:108] - Tomcat initialized with port(s): 8000 (http)
+INFO  22-03-17 20:36:47[restartedMain] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8000"]
+INFO  22-03-17 20:36:47[restartedMain] [StandardService:173] - Starting service [Tomcat]
+INFO  22-03-17 20:36:47[restartedMain] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.58]
+INFO  22-03-17 20:36:48[restartedMain] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  22-03-17 20:36:48[restartedMain] [ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1706 ms
+INFO  22-03-17 20:36:48[restartedMain] [HikariDataSource:110] - HikariPool-1 - Starting...
+INFO  22-03-17 20:36:48[restartedMain] [HikariDataSource:123] - HikariPool-1 - Start completed.
+INFO  22-03-17 20:36:48[restartedMain] [H2ConsoleAutoConfiguration:89] - H2 console available at '/h2-console'. Database available at 'jdbc:mariadb://localhost:3306/sample?characterEncoding=UTF-8&serverTimezone=UTC'
+INFO  22-03-17 20:36:48[restartedMain] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  22-03-17 20:36:48[restartedMain] [Version:44] - HHH000412: Hibernate ORM core version 5.6.5.Final
+INFO  22-03-17 20:36:48[restartedMain] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO  22-03-17 20:36:48[restartedMain] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MariaDBDialect
+INFO  22-03-17 20:36:49[restartedMain] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  22-03-17 20:36:49[restartedMain] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN  22-03-17 20:36:49[restartedMain] [JpaBaseConfiguration$JpaWebConfiguration:219] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  22-03-17 20:36:50[restartedMain] [WelcomePageHandlerMapping:53] - Adding welcome page: class path resource [static/index.html]
+INFO  22-03-17 20:36:50[restartedMain] [OptionalLiveReloadServer:58] - LiveReload server is running on port 35729
+INFO  22-03-17 20:36:50[restartedMain] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-8000"]
+INFO  22-03-17 20:36:50[restartedMain] [TomcatWebServer:220] - Tomcat started on port(s): 8000 (http) with context path ''
+INFO  22-03-17 20:36:50[restartedMain] [HelloSpringApplication:61] - Started HelloSpringApplication in 4.7 seconds (JVM running for 7.558)
+INFO  22-03-17 21:31:49[SpringApplicationShutdownHook] [LocalContainerEntityManagerFactoryBean:651] - Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  22-03-17 21:31:49[SpringApplicationShutdownHook] [HikariDataSource:350] - HikariPool-1 - Shutdown initiated...
+INFO  22-03-17 21:31:49[SpringApplicationShutdownHook] [HikariDataSource:352] - HikariPool-1 - Shutdown completed.
+INFO  22-03-17 21:32:03[restartedMain] [HelloSpringApplication:55] - Starting HelloSpringApplication using Java 11.0.11 on DESKTOP-IE3FB85 with PID 9720 (C:\Users\hyeji\Documents\GitHub\SpringBoot\target\classes started by hyeji in C:\Users\hyeji\Documents\GitHub\SpringBoot)
+INFO  22-03-17 21:32:03[restartedMain] [HelloSpringApplication:640] - No active profile set, falling back to 1 default profile: "default"
+INFO  22-03-17 21:32:03[restartedMain] [DevToolsPropertyDefaultsPostProcessor:255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+INFO  22-03-17 21:32:03[restartedMain] [DevToolsPropertyDefaultsPostProcessor:255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+INFO  22-03-17 21:32:04[restartedMain] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  22-03-17 21:32:04[restartedMain] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 10 ms. Found 0 JPA repository interfaces.
+INFO  22-03-17 21:32:05[restartedMain] [TomcatWebServer:108] - Tomcat initialized with port(s): 8000 (http)
+INFO  22-03-17 21:32:05[restartedMain] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8000"]
+INFO  22-03-17 21:32:05[restartedMain] [StandardService:173] - Starting service [Tomcat]
+INFO  22-03-17 21:32:05[restartedMain] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.58]
+INFO  22-03-17 21:32:05[restartedMain] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  22-03-17 21:32:05[restartedMain] [ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 2073 ms
+INFO  22-03-17 21:32:05[restartedMain] [HikariDataSource:110] - HikariPool-1 - Starting...
+INFO  22-03-17 21:32:05[restartedMain] [HikariDataSource:123] - HikariPool-1 - Start completed.
+INFO  22-03-17 21:32:05[restartedMain] [H2ConsoleAutoConfiguration:89] - H2 console available at '/h2-console'. Database available at 'jdbc:mariadb://localhost:3306/sample?characterEncoding=UTF-8&serverTimezone=UTC'
+INFO  22-03-17 21:32:06[restartedMain] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  22-03-17 21:32:06[restartedMain] [Version:44] - HHH000412: Hibernate ORM core version 5.6.5.Final
+INFO  22-03-17 21:32:06[restartedMain] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO  22-03-17 21:32:06[restartedMain] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MariaDBDialect
+INFO  22-03-17 21:32:07[restartedMain] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  22-03-17 21:32:07[restartedMain] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN  22-03-17 21:32:07[restartedMain] [JpaBaseConfiguration$JpaWebConfiguration:219] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  22-03-17 21:32:07[restartedMain] [WelcomePageHandlerMapping:53] - Adding welcome page: class path resource [static/index.html]
+INFO  22-03-17 21:32:07[restartedMain] [OptionalLiveReloadServer:58] - LiveReload server is running on port 35729
+INFO  22-03-17 21:32:07[restartedMain] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-8000"]
+INFO  22-03-17 21:32:07[restartedMain] [TomcatWebServer:220] - Tomcat started on port(s): 8000 (http) with context path ''
+INFO  22-03-17 21:32:07[restartedMain] [HelloSpringApplication:61] - Started HelloSpringApplication in 5.315 seconds (JVM running for 8.2)
+INFO  22-03-17 21:32:46[SpringApplicationShutdownHook] [LocalContainerEntityManagerFactoryBean:651] - Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  22-03-17 21:32:46[SpringApplicationShutdownHook] [HikariDataSource:350] - HikariPool-1 - Shutdown initiated...
+INFO  22-03-17 21:32:46[SpringApplicationShutdownHook] [HikariDataSource:352] - HikariPool-1 - Shutdown completed.
+2022-03-17 21:32:54[restartedMain] INFO  [HelloSpringApplication:55] - Starting HelloSpringApplication using Java 11.0.11 on DESKTOP-IE3FB85 with PID 8820 (C:\Users\hyeji\Documents\GitHub\SpringBoot\target\classes started by hyeji in C:\Users\hyeji\Documents\GitHub\SpringBoot)
+2022-03-17 21:32:54[restartedMain] INFO  [HelloSpringApplication:640] - No active profile set, falling back to 1 default profile: "default"
+2022-03-17 21:32:54[restartedMain] INFO  [DevToolsPropertyDefaultsPostProcessor:255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-03-17 21:32:54[restartedMain] INFO  [DevToolsPropertyDefaultsPostProcessor:255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-03-17 21:32:55[restartedMain] INFO  [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-17 21:32:55[restartedMain] INFO  [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 11 ms. Found 0 JPA repository interfaces.
+2022-03-17 21:32:56[restartedMain] INFO  [TomcatWebServer:108] - Tomcat initialized with port(s): 8000 (http)
+2022-03-17 21:32:56[restartedMain] INFO  [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8000"]
+2022-03-17 21:32:56[restartedMain] INFO  [StandardService:173] - Starting service [Tomcat]
+2022-03-17 21:32:56[restartedMain] INFO  [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-03-17 21:32:56[restartedMain] INFO  [[/]:173] - Initializing Spring embedded WebApplicationContext
+2022-03-17 21:32:56[restartedMain] INFO  [ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1779 ms
+2022-03-17 21:32:56[restartedMain] INFO  [HikariDataSource:110] - HikariPool-1 - Starting...
+2022-03-17 21:32:56[restartedMain] INFO  [HikariDataSource:123] - HikariPool-1 - Start completed.
+2022-03-17 21:32:56[restartedMain] INFO  [H2ConsoleAutoConfiguration:89] - H2 console available at '/h2-console'. Database available at 'jdbc:mariadb://localhost:3306/sample?characterEncoding=UTF-8&serverTimezone=UTC'
+2022-03-17 21:32:56[restartedMain] INFO  [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-03-17 21:32:56[restartedMain] INFO  [Version:44] - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-03-17 21:32:56[restartedMain] INFO  [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-17 21:32:56[restartedMain] INFO  [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MariaDBDialect
+2022-03-17 21:32:57[restartedMain] INFO  [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-03-17 21:32:57[restartedMain] INFO  [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-17 21:32:57[restartedMain] WARN  [JpaBaseConfiguration$JpaWebConfiguration:219] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-17 21:32:57[restartedMain] INFO  [WelcomePageHandlerMapping:53] - Adding welcome page: class path resource [static/index.html]
+2022-03-17 21:32:58[restartedMain] INFO  [OptionalLiveReloadServer:58] - LiveReload server is running on port 35729
+2022-03-17 21:32:58[restartedMain] INFO  [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-8000"]
+2022-03-17 21:32:58[restartedMain] INFO  [TomcatWebServer:220] - Tomcat started on port(s): 8000 (http) with context path ''
+2022-03-17 21:32:58[restartedMain] INFO  [HelloSpringApplication:61] - Started HelloSpringApplication in 4.253 seconds (JVM running for 6.327)
+2022-03-17 21:35:06[SpringApplicationShutdownHook] INFO  [LocalContainerEntityManagerFactoryBean:651] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-03-17 21:35:06[SpringApplicationShutdownHook] INFO  [HikariDataSource:350] - HikariPool-1 - Shutdown initiated...
+2022-03-17 21:35:06[SpringApplicationShutdownHook] INFO  [HikariDataSource:352] - HikariPool-1 - Shutdown completed.
+2022-03-17 21:35:15[restartedMain] [34m[INFO ][0;39m [HelloSpringApplication:55] - Starting HelloSpringApplication using Java 11.0.11 on DESKTOP-IE3FB85 with PID 13948 (C:\Users\hyeji\Documents\GitHub\SpringBoot\target\classes started by hyeji in C:\Users\hyeji\Documents\GitHub\SpringBoot)
+2022-03-17 21:35:15[restartedMain] [34m[INFO ][0;39m [HelloSpringApplication:640] - No active profile set, falling back to 1 default profile: "default"
+2022-03-17 21:35:15[restartedMain] [34m[INFO ][0;39m [DevToolsPropertyDefaultsPostProcessor:255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-03-17 21:35:15[restartedMain] [34m[INFO ][0;39m [DevToolsPropertyDefaultsPostProcessor:255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-03-17 21:35:16[restartedMain] [34m[INFO ][0;39m [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-17 21:35:16[restartedMain] [34m[INFO ][0;39m [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 11 ms. Found 0 JPA repository interfaces.
+2022-03-17 21:35:17[restartedMain] [34m[INFO ][0;39m [TomcatWebServer:108] - Tomcat initialized with port(s): 8000 (http)
+2022-03-17 21:35:17[restartedMain] [34m[INFO ][0;39m [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8000"]
+2022-03-17 21:35:17[restartedMain] [34m[INFO ][0;39m [StandardService:173] - Starting service [Tomcat]
+2022-03-17 21:35:17[restartedMain] [34m[INFO ][0;39m [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-03-17 21:35:17[restartedMain] [34m[INFO ][0;39m [[/]:173] - Initializing Spring embedded WebApplicationContext
+2022-03-17 21:35:17[restartedMain] [34m[INFO ][0;39m [ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1967 ms
+2022-03-17 21:35:17[restartedMain] [34m[INFO ][0;39m [HikariDataSource:110] - HikariPool-1 - Starting...
+2022-03-17 21:35:17[restartedMain] [34m[INFO ][0;39m [HikariDataSource:123] - HikariPool-1 - Start completed.
+2022-03-17 21:35:17[restartedMain] [34m[INFO ][0;39m [H2ConsoleAutoConfiguration:89] - H2 console available at '/h2-console'. Database available at 'jdbc:mariadb://localhost:3306/sample?characterEncoding=UTF-8&serverTimezone=UTC'
+2022-03-17 21:35:17[restartedMain] [34m[INFO ][0;39m [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-03-17 21:35:17[restartedMain] [34m[INFO ][0;39m [Version:44] - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-03-17 21:35:17[restartedMain] [34m[INFO ][0;39m [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-17 21:35:17[restartedMain] [34m[INFO ][0;39m [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MariaDBDialect
+2022-03-17 21:35:18[restartedMain] [34m[INFO ][0;39m [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-03-17 21:35:18[restartedMain] [34m[INFO ][0;39m [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-17 21:35:18[restartedMain] [31m[WARN ][0;39m [JpaBaseConfiguration$JpaWebConfiguration:219] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-17 21:35:18[restartedMain] [34m[INFO ][0;39m [WelcomePageHandlerMapping:53] - Adding welcome page: class path resource [static/index.html]
+2022-03-17 21:35:18[restartedMain] [34m[INFO ][0;39m [OptionalLiveReloadServer:58] - LiveReload server is running on port 35729
+2022-03-17 21:35:18[restartedMain] [34m[INFO ][0;39m [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-8000"]
+2022-03-17 21:35:18[restartedMain] [34m[INFO ][0;39m [TomcatWebServer:220] - Tomcat started on port(s): 8000 (http) with context path ''
+2022-03-17 21:35:18[restartedMain] [34m[INFO ][0;39m [HelloSpringApplication:61] - Started HelloSpringApplication in 4.883 seconds (JVM running for 7.236)
+2022-03-17 21:35:38[SpringApplicationShutdownHook] [34m[INFO ][0;39m [LocalContainerEntityManagerFactoryBean:651] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-03-17 21:35:38[SpringApplicationShutdownHook] [34m[INFO ][0;39m [HikariDataSource:350] - HikariPool-1 - Shutdown initiated...
+2022-03-17 21:35:38[SpringApplicationShutdownHook] [34m[INFO ][0;39m [HikariDataSource:352] - HikariPool-1 - Shutdown completed.
+2022-03-17 21:35:47[restartedMain] [34mINFO [0;39m [HelloSpringApplication:55] - Starting HelloSpringApplication using Java 11.0.11 on DESKTOP-IE3FB85 with PID 12616 (C:\Users\hyeji\Documents\GitHub\SpringBoot\target\classes started by hyeji in C:\Users\hyeji\Documents\GitHub\SpringBoot)
+2022-03-17 21:35:47[restartedMain] [34mINFO [0;39m [HelloSpringApplication:640] - No active profile set, falling back to 1 default profile: "default"
+2022-03-17 21:35:47[restartedMain] [34mINFO [0;39m [DevToolsPropertyDefaultsPostProcessor:255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-03-17 21:35:47[restartedMain] [34mINFO [0;39m [DevToolsPropertyDefaultsPostProcessor:255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-03-17 21:35:48[restartedMain] [34mINFO [0;39m [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-17 21:35:49[restartedMain] [34mINFO [0;39m [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 11 ms. Found 0 JPA repository interfaces.
+2022-03-17 21:35:49[restartedMain] [34mINFO [0;39m [TomcatWebServer:108] - Tomcat initialized with port(s): 8000 (http)
+2022-03-17 21:35:49[restartedMain] [34mINFO [0;39m [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8000"]
+2022-03-17 21:35:49[restartedMain] [34mINFO [0;39m [StandardService:173] - Starting service [Tomcat]
+2022-03-17 21:35:49[restartedMain] [34mINFO [0;39m [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-03-17 21:35:49[restartedMain] [34mINFO [0;39m [[/]:173] - Initializing Spring embedded WebApplicationContext
+2022-03-17 21:35:49[restartedMain] [34mINFO [0;39m [ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 2057 ms
+2022-03-17 21:35:49[restartedMain] [34mINFO [0;39m [HikariDataSource:110] - HikariPool-1 - Starting...
+2022-03-17 21:35:50[restartedMain] [34mINFO [0;39m [HikariDataSource:123] - HikariPool-1 - Start completed.
+2022-03-17 21:35:50[restartedMain] [34mINFO [0;39m [H2ConsoleAutoConfiguration:89] - H2 console available at '/h2-console'. Database available at 'jdbc:mariadb://localhost:3306/sample?characterEncoding=UTF-8&serverTimezone=UTC'
+2022-03-17 21:35:50[restartedMain] [34mINFO [0;39m [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-03-17 21:35:50[restartedMain] [34mINFO [0;39m [Version:44] - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-03-17 21:35:50[restartedMain] [34mINFO [0;39m [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-17 21:35:50[restartedMain] [34mINFO [0;39m [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MariaDBDialect
+2022-03-17 21:35:51[restartedMain] [34mINFO [0;39m [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-03-17 21:35:51[restartedMain] [34mINFO [0;39m [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-17 21:35:51[restartedMain] [31mWARN [0;39m [JpaBaseConfiguration$JpaWebConfiguration:219] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-17 21:35:51[restartedMain] [34mINFO [0;39m [WelcomePageHandlerMapping:53] - Adding welcome page: class path resource [static/index.html]
+2022-03-17 21:35:51[restartedMain] [34mINFO [0;39m [OptionalLiveReloadServer:58] - LiveReload server is running on port 35729
+2022-03-17 21:35:51[restartedMain] [34mINFO [0;39m [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-8000"]
+2022-03-17 21:35:51[restartedMain] [34mINFO [0;39m [TomcatWebServer:220] - Tomcat started on port(s): 8000 (http) with context path ''
+2022-03-17 21:35:51[restartedMain] [34mINFO [0;39m [HelloSpringApplication:61] - Started HelloSpringApplication in 5.425 seconds (JVM running for 8.756)
+2022-03-17 21:38:05[SpringApplicationShutdownHook] [34mINFO [0;39m [LocalContainerEntityManagerFactoryBean:651] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-03-17 21:38:05[SpringApplicationShutdownHook] [34mINFO [0;39m [HikariDataSource:350] - HikariPool-1 - Shutdown initiated...
+2022-03-17 21:38:05[SpringApplicationShutdownHook] [34mINFO [0;39m [HikariDataSource:352] - HikariPool-1 - Shutdown completed.
+2022-03-17 21:38:15[restartedMain] [34mINFO [0;39m [HelloSpringApplication:55] - [32mStarting HelloSpringApplication using Java 11.0.11 on DESKTOP-IE3FB85 with PID 14216 (C:\Users\hyeji\Documents\GitHub\SpringBoot\target\classes started by hyeji in C:\Users\hyeji\Documents\GitHub\SpringBoot)
+[0;39m2022-03-17 21:38:15[restartedMain] [34mINFO [0;39m [HelloSpringApplication:640] - [32mNo active profile set, falling back to 1 default profile: "default"
+[0;39m2022-03-17 21:38:16[restartedMain] [34mINFO [0;39m [DevToolsPropertyDefaultsPostProcessor:255] - [32mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[0;39m2022-03-17 21:38:16[restartedMain] [34mINFO [0;39m [DevToolsPropertyDefaultsPostProcessor:255] - [32mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[0;39m2022-03-17 21:38:17[restartedMain] [34mINFO [0;39m [RepositoryConfigurationDelegate:132] - [32mBootstrapping Spring Data JPA repositories in DEFAULT mode.
+[0;39m2022-03-17 21:38:17[restartedMain] [34mINFO [0;39m [RepositoryConfigurationDelegate:201] - [32mFinished Spring Data repository scanning in 15 ms. Found 0 JPA repository interfaces.
+[0;39m2022-03-17 21:38:17[restartedMain] [34mINFO [0;39m [TomcatWebServer:108] - [32mTomcat initialized with port(s): 8000 (http)
+[0;39m2022-03-17 21:38:17[restartedMain] [34mINFO [0;39m [Http11NioProtocol:173] - [32mInitializing ProtocolHandler ["http-nio-8000"]
+[0;39m2022-03-17 21:38:17[restartedMain] [34mINFO [0;39m [StandardService:173] - [32mStarting service [Tomcat]
+[0;39m2022-03-17 21:38:17[restartedMain] [34mINFO [0;39m [StandardEngine:173] - [32mStarting Servlet engine: [Apache Tomcat/9.0.58]
+[0;39m2022-03-17 21:38:18[restartedMain] [34mINFO [0;39m [[/]:173] - [32mInitializing Spring embedded WebApplicationContext
+[0;39m2022-03-17 21:38:18[restartedMain] [34mINFO [0;39m [ServletWebServerApplicationContext:290] - [32mRoot WebApplicationContext: initialization completed in 2168 ms
+[0;39m2022-03-17 21:38:18[restartedMain] [34mINFO [0;39m [HikariDataSource:110] - [32mHikariPool-1 - Starting...
+[0;39m2022-03-17 21:38:18[restartedMain] [34mINFO [0;39m [HikariDataSource:123] - [32mHikariPool-1 - Start completed.
+[0;39m2022-03-17 21:38:18[restartedMain] [34mINFO [0;39m [H2ConsoleAutoConfiguration:89] - [32mH2 console available at '/h2-console'. Database available at 'jdbc:mariadb://localhost:3306/sample?characterEncoding=UTF-8&serverTimezone=UTC'
+[0;39m2022-03-17 21:38:18[restartedMain] [34mINFO [0;39m [LogHelper:31] - [32mHHH000204: Processing PersistenceUnitInfo [name: default]
+[0;39m2022-03-17 21:38:18[restartedMain] [34mINFO [0;39m [Version:44] - [32mHHH000412: Hibernate ORM core version 5.6.5.Final
+[0;39m2022-03-17 21:38:18[restartedMain] [34mINFO [0;39m [Version:56] - [32mHCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[0;39m2022-03-17 21:38:18[restartedMain] [34mINFO [0;39m [Dialect:175] - [32mHHH000400: Using dialect: org.hibernate.dialect.MariaDBDialect
+[0;39m2022-03-17 21:38:19[restartedMain] [34mINFO [0;39m [JtaPlatformInitiator:52] - [32mHHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[0;39m2022-03-17 21:38:19[restartedMain] [34mINFO [0;39m [LocalContainerEntityManagerFactoryBean:437] - [32mInitialized JPA EntityManagerFactory for persistence unit 'default'
+[0;39m2022-03-17 21:38:19[restartedMain] [31mWARN [0;39m [JpaBaseConfiguration$JpaWebConfiguration:219] - [32mspring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[0;39m2022-03-17 21:38:19[restartedMain] [34mINFO [0;39m [WelcomePageHandlerMapping:53] - [32mAdding welcome page: class path resource [static/index.html]
+[0;39m2022-03-17 21:38:20[restartedMain] [34mINFO [0;39m [OptionalLiveReloadServer:58] - [32mLiveReload server is running on port 35729
+[0;39m2022-03-17 21:38:20[restartedMain] [34mINFO [0;39m [Http11NioProtocol:173] - [32mStarting ProtocolHandler ["http-nio-8000"]
+[0;39m2022-03-17 21:38:20[restartedMain] [34mINFO [0;39m [TomcatWebServer:220] - [32mTomcat started on port(s): 8000 (http) with context path ''
+[0;39m2022-03-17 21:38:20[restartedMain] [34mINFO [0;39m [HelloSpringApplication:61] - [32mStarted HelloSpringApplication in 5.521 seconds (JVM running for 8.992)
+[0;39m
