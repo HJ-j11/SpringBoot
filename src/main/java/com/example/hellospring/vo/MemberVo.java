@@ -1,18 +1,14 @@
 package com.example.hellospring.vo;
 
+import lombok.Getter;
+import lombok.Setter;
+
 import javax.persistence.*;
+import java.util.Date;
 
 
 @Entity
 public class MemberVo {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    Long mbrNo;
-
-    @Column(name="NAME")
-    String name;
-    String id;
-
     public Long getMbrNo() {
         return mbrNo;
     }
@@ -36,6 +32,28 @@ public class MemberVo {
     public void setId(String id) {
         this.id = id;
     }
+
+    public Date getDate() {
+        return date;
+    }
+
+    public void setDate(Date date) {
+        this.date = date;
+    }
+
+    @Id
+    // 키 생성 테이블에 위임.
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    Long mbrNo;
+
+    // not null 조건 추가
+    @Column(nullable = false)
+    String name;
+    String id;
+
+    // 타임스탬프
+    @Temporal(TemporalType.TIMESTAMP)
+    private Date date;
 
 
 //    public MemberVo(String name, String id) {

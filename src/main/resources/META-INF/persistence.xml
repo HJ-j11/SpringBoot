@@ -14,6 +14,7 @@
 
             <!-- 옵션 -->
             <!-- 콘솔에 하이버네이트가 실행하는 SQL문 출력 -->
+            <!-- 데이터베이스 테이블 자동 생성-->
             <property name="hibernate.show_sql" value="true"/>
             <!-- SQL 출력 시 보기 쉽게 정렬 -->
             <property name="hibernate.format_sql" value="true"/>

@@ -18,8 +18,8 @@ public class Main {
        try {
            // 선언 및 setId, setName
            MemberVo member = new MemberVo();
-           member.setId("005");
-           member.setName("Hello world!");
+           member.setId("004");
+           member.setName("hello");
            em.persist(member);
            //커밋
            tx.commit();
