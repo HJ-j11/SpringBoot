@@ -7,32 +7,17 @@ import javax.persistence.*;
 @Entity
 public class MemberVo {
     @Id
-    // 키 생성 테이블에 위임.
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long mbrNo;
+    @Column(name="MEMBER_ID")
+    private String id;
 
     // not null 조건 추가
     @Column(nullable = false)
     private String name;
-    private String id;
-    
-    
+
     // 매핑 관계 설정
     @ManyToOne
     @JoinColumn(name="TEAM_ID")
     private Team team;
-
-    // 타임스탬프
-//    @Temporal(TemporalType.TIMESTAMP)
-//    private Date date;
-
-    public Long getMbrNo() {
-        return mbrNo;
-    }
-
-    public void setMbrNo(Long mbrNo) {
-        this.mbrNo = mbrNo;
-    }
 
     public String getName() {
         return name;
@@ -50,14 +35,14 @@ public class MemberVo {
         this.id = id;
     }
 
-//    public Date getDate() {
-//        return date;
-//    }
-//
-//    public void setDate(Date date) {
-//        this.date = date;
-//    }
-    
+    public Team getTeam() {
+        return team;
+    }
+
+    public void setTeam(Team team) {
+        this.team = team;
+    }
+
     public MemberVo() {
 
     }
