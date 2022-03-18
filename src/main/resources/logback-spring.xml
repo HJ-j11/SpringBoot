@@ -2,9 +2,9 @@
 <!-- 60초마다 설정 파일의 변경을 확인 하여 변경시 갱신 -->
 <configuration scan="true" scanPeriod="60 seconds">
     <!-- log file path -->
-    <property name="LOG_PATH" value="./logs"/>
+    <property name="LOG_PATH" value="D:\\Logs"/>
     <!-- log file name -->
-    <property name="LOG_FILE_NAME" value="${log.config.filename}"/>
+    <property name="LOG_FILE_NAME" value="local_log"/>
     <!-- err log file name -->
     <property name="ERR_LOG_FILE_NAME" value="err_log"/>
     <!-- pattern -->
