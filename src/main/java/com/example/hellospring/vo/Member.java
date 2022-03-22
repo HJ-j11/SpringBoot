@@ -2,10 +2,12 @@ package com.example.hellospring.vo;
 
 
 import javax.persistence.*;
+import java.util.ArrayList;
+import java.util.List;
 
 
 @Entity
-public class MemberVo {
+public class Member {
     @Id
     @Column(name="MEMBER_ID")
     private String id;
@@ -18,6 +20,14 @@ public class MemberVo {
     @ManyToOne
     @JoinColumn(name="TEAM_ID")
     private Team team;
+
+    @OneToOne
+    private Locker locker;
+
+    @ManyToMany
+    @JoinTable(name="MEMBER_PRODUCT", joinColumns = @JoinColumn(name="MEMBER_ID"),
+    inverseJoinColumns = @JoinColumn(name="PRODUCT_ID"))
+    private List<Product> products = new ArrayList<Product>();
 
     public String getName() {
         return name;
@@ -43,11 +53,15 @@ public class MemberVo {
         this.team = team;
     }
 
-    public MemberVo() {
+    public List<Product> getProducts() {
+        return products;
+    }
+
+    public Member() {
 
     }
 
-    public MemberVo(String id, String name) {
+    public Member(String id, String name) {
         this.id = id;
         this.name = name;
     }

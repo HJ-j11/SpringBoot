@@ -17,7 +17,7 @@ public class Team {
     private String name;
 
     @OneToMany
-    private List<MemberVo> members = new ArrayList<MemberVo>();
+    private List<Member> members = new ArrayList<Member>();
 
     public String getId() {
         return id;
@@ -35,11 +35,11 @@ public class Team {
         this.name = name;
     }
 
-    public List<MemberVo> getMembers() {
+    public List<Member> getMembers() {
         return members;
     }
 
-    public void setMembers(List<MemberVo> members) {
+    public void setMembers(List<Member> members) {
         this.members = members;
     }
 
