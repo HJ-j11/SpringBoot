@@ -2,6 +2,8 @@ package com.example.hellospring.service;
 
 
 import com.example.hellospring.controller.TestController;
+import com.example.hellospring.repository.BoardRepository;
+import com.example.hellospring.repository.CommentRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -9,6 +11,10 @@ import org.springframework.stereotype.Service;
 public class TestService {
 
     @Autowired
-    TestController testController;
+    BoardRepository boardRepository;
+    @Autowired
+    CommentRepository commentRepository;
+
+
 
 }
