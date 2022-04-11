@@ -1,10 +1,15 @@
 package com.example.hellospring.entity;
 
 
+import lombok.Getter;
+import lombok.Setter;
+
 import javax.persistence.*;
 import java.util.List;
 
 @Entity
+@Getter
+@Setter
 public class User {
     @Id
     @GeneratedValue
@@ -14,11 +19,11 @@ public class User {
 
     private String phone;
 
-    @OneToMany
+    @OneToMany(mappedBy = "user")
     @JoinColumn(name="board_id")
     private List<Board> boards;
 
-    @OneToMany
+    @OneToMany(mappedBy = "user")
     @JoinColumn(name="comment_id")
     private List<Comment> comments;
 

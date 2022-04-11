@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org/">
+    <head>
+            <title>Board Sample</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    </head>
+    <body>
+        <table>
+            <tr>
+                <th>제목</th>
+                <th>작성자</th>
+                <th>작성일</th>
+            </tr>
+            <tr th:each="board : ${boardList}">
+                <td th:text="${board.title}"></td>
+                <td th:text="${board.name}"></td>
+                <td th:text="${board.regDate}"></td>
+            </tr>
+        </table>
+    </body>
+</html>
