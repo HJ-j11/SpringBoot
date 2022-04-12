@@ -30,9 +30,7 @@ public class Board {
     @Enumerated(EnumType.STRING)
     private BoardStatus boardStatus;
 
-    @OneToMany(mappedBy = "board")
-    @JoinColumn(name="comment_id")
-    private List<Comment> comment;
+
 
     @Builder
     public Board(String title, String contents, Date regDate, BoardStatus status) {

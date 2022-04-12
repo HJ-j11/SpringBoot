@@ -13,19 +13,16 @@ import java.util.List;
 public class User {
     @Id
     @GeneratedValue
-    @Column(name="user_id")
-    private long id;
+    @Column(name="user_idx")
+    private long idx;
+
+    private String id;
+    private String password;
+
     private String name;
 
     private String phone;
 
-    @OneToMany(mappedBy = "user")
-    @JoinColumn(name="board_id")
-    private List<Board> boards;
-
-    @OneToMany(mappedBy = "user")
-    @JoinColumn(name="comment_id")
-    private List<Comment> comments;
 
 
 }

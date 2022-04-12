@@ -2,14 +2,17 @@ package com.example.hellospring.controller;
 
 
 import com.example.hellospring.entity.Board;
+import com.example.hellospring.entity.BoardStatus;
 import com.example.hellospring.service.TestService;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.multipart.MultipartFile;
 
-import javax.swing.text.html.Option;
+import java.util.Date;
 import java.util.List;
 import java.util.Optional;
 
@@ -17,6 +20,7 @@ import java.util.Optional;
 public class TestController {
     @Autowired
     TestService testService;
+    private Logger logger = LoggerFactory.getLogger(TestController.class);
 
     @GetMapping("/lists")
     public String getSampleList(Model model) {
@@ -26,7 +30,8 @@ public class TestController {
     }
 
     @GetMapping("/lists/write")
-    public String writeNewBoard() {
+    public String writeNewBoard(Model model) {
+        model.addAttribute("board", new BoardForm());
         return "newBoard";
     }
 
@@ -38,7 +43,16 @@ public class TestController {
     }
 
     @PostMapping("/list/new")
-    public void postNewBoard(@RequestBody Board board) {
-        testService.postNewBoard(board);
+    public void postNewBoard(@ModelAttribute BoardForm boardform) {
+        String title = boardform.getTitle();
+        String contents = boardform.getContents();
+        MultipartFile file = boardform.getFile();
+
+        logger.info(boardform.getContents());
+        logger.info(boardform.getTitle());
+        logger.info(boardform.getFile().getOriginalFilename());
+
+        Board board = new Board(title, contents, new Date(), BoardStatus.LIST);
+
     }
 }
