@@ -2,23 +2,25 @@ package com.example.hellospring.controller;
 
 
 import com.example.hellospring.entity.User;
-import com.example.hellospring.entity.UserInfo;
 import com.example.hellospring.login.LoginForm;
 import com.example.hellospring.login.SessionConstants;
 import com.example.hellospring.service.TestService;
-import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 
-import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 
-@RestController
+@Controller
 public class UserController {
-    @Autowired
-    TestService testService;
+    private TestService testService;
+
+    @GetMapping("/")
+    public String Home() {
+        return "index";
+    }
 
     @GetMapping("/login")
     public String LoginForm(Model model) {
@@ -44,7 +46,7 @@ public class UserController {
         return "sample";
     }
 
-    @PostMapping("logout")
+    @PostMapping("/logout")
     public String Logout(HttpServletRequest request) {
         HttpSession session = request.getSession(false);
         if(session != null) {
@@ -54,4 +56,13 @@ public class UserController {
         return "Login";
     }
 
+    @GetMapping("/err")
+    public String errPage() {
+        return "errPage";
+    }
+
+    @GetMapping("/mypage")
+    public String myPage() {
+        return "myPage";
+    }
 }
