@@ -30,7 +30,7 @@ public class TestService {
     }
     //로그인 기능
     public User Login(String LoginId, String pwd) {
-        return userRepository.findByLoginId(LoginId).filter(m -> m.getPassword().equals(pwd))
+        return userRepository.findUserById(LoginId).filter(m -> m.getPassword().equals(pwd))
                 .orElse(null);
     }
 

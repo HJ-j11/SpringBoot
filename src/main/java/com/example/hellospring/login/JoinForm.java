@@ -1,12 +1,15 @@
 package com.example.hellospring.login;
 
-import com.sun.istack.NotNull;
+
 import lombok.Data;
 import lombok.Getter;
 
-@Data @Getter
-public class LoginForm {
-    private String LoginId;
+@Data
+@Getter
+public class JoinForm {
+
+    private String name;
+    private String joinId;
     private String password;
 
 }

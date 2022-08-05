@@ -1,4 +1,4 @@
-package com.example.hellospring.login;
+package com.example.hellospring.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
