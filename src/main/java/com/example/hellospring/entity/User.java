@@ -25,13 +25,14 @@ public class User {
 
     private String name;
 
-    private String phone;
+    private String role;
 
     @Builder
-    public User(String id, String password, String name) {
+    public User(String id, String password, String name, String role) {
         this.id = id;
         this.password = password;
         this.name = name;
+        this.role = role;
     }
 
     public User createUser(JoinForm joinForm) {
