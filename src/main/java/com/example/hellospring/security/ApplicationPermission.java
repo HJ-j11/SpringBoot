@@ -2,7 +2,7 @@ package com.example.hellospring.security;
 
 public enum ApplicationPermission {
     USER_READ("user:read"),
-    USER_WRITE("user:read"),
+    USER_WRITE("user:write"),
     COURSE_READ("course:read"),
     COURSE_WRITE("course:write");
 

@@ -35,6 +35,10 @@ public class User {
         this.role = role;
     }
 
+    public User(String name) {
+        this.name = name;
+    }
+
     public User createUser(JoinForm joinForm) {
         User user = User.builder()
                 .id(joinForm.getJoinId())
