@@ -1,29 +1,34 @@
 package com.example.hellospring.security;
 
+import com.example.hellospring.entity.User;
 import org.springframework.security.core.GrantedAuthority;
+import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
 import java.util.Collection;
+import java.util.Collections;
 
 public class CustomUserDetails implements UserDetails {
-    private String id;
-    private String password;
-    private String role;
-    private String authority;
+    private User user;
+
+    public CustomUserDetails(User user) {
+        super();
+        this.user = user;
+    }
 
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
-        return null;
+        return Collections.singleton(new SimpleGrantedAuthority((user.getRole())));
     }
 
     @Override
     public String getPassword() {
-        return password;
+        return user.getPassword();
     }
 
     @Override
     public String getUsername() {
-        return id;
+        return user.getUsername();
     }
 
     @Override
@@ -43,6 +48,6 @@ public class CustomUserDetails implements UserDetails {
 
     @Override
     public boolean isEnabled() {
-        return false;
+        return true;
     }
 }
