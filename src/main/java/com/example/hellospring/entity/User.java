@@ -19,6 +19,6 @@ public class User {
     private String password;
     private String username;
     private String role;
-
+    private boolean isActive;
 
 }
